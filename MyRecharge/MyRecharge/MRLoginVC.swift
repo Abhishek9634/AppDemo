@@ -10,11 +10,8 @@ import UIKit
 
 class MRLoginVC: UIViewController {
 
-    
     @IBOutlet weak var appTitle: UILabel!
-    
     @IBOutlet weak var fbLoginButton: UIButton!
-    
     @IBOutlet weak var googleLoginButton: UIButton!
     
     override func viewDidLoad() {

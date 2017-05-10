@@ -15,6 +15,13 @@
 		84D9BA1C1EC36F58009042CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D9BA1A1EC36F58009042CB /* LaunchScreen.storyboard */; };
 		84D9BA271EC36F59009042CB /* MyRechargeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9BA261EC36F59009042CB /* MyRechargeTests.swift */; };
 		84D9BA321EC36F59009042CB /* MyRechargeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9BA311EC36F59009042CB /* MyRechargeUITests.swift */; };
+		84D9BA461EC37A9A009042CB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D9BA431EC37A9A009042CB /* Bolts.framework */; };
+		84D9BA471EC37A9A009042CB /* Bolts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84D9BA431EC37A9A009042CB /* Bolts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84D9BA481EC37A9A009042CB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D9BA441EC37A9A009042CB /* FBSDKCoreKit.framework */; };
+		84D9BA491EC37A9A009042CB /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84D9BA441EC37A9A009042CB /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84D9BA4A1EC37A9A009042CB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D9BA451EC37A9A009042CB /* FBSDKLoginKit.framework */; };
+		84D9BA4B1EC37A9A009042CB /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84D9BA451EC37A9A009042CB /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84D9BA501EC37D65009042CB /* MRDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9BA4F1EC37D65009042CB /* MRDatabase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		84D9BA4C1EC37A9A009042CB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84D9BA471EC37A9A009042CB /* Bolts.framework in Embed Frameworks */,
+				84D9BA491EC37A9A009042CB /* FBSDKCoreKit.framework in Embed Frameworks */,
+				84D9BA4B1EC37A9A009042CB /* FBSDKLoginKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		84D9BA0B1EC36F58009042CB /* MyRecharge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRecharge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D9BA0E1EC36F58009042CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +72,11 @@
 		84D9BA2D1EC36F59009042CB /* MyRechargeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRechargeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D9BA311EC36F59009042CB /* MyRechargeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRechargeUITests.swift; sourceTree = "<group>"; };
 		84D9BA331EC36F59009042CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D9BA431EC37A9A009042CB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = MyRecharge/FBSDK/Bolts.framework; sourceTree = "<group>"; };
+		84D9BA441EC37A9A009042CB /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = MyRecharge/FBSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		84D9BA451EC37A9A009042CB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = MyRecharge/FBSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		84D9BA4D1EC37B27009042CB /* MyRecharge-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyRecharge-Bridging-Header.h"; sourceTree = "<group>"; };
+		84D9BA4F1EC37D65009042CB /* MRDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRDatabase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D9BA461EC37A9A009042CB /* Bolts.framework in Frameworks */,
+				84D9BA481EC37A9A009042CB /* FBSDKCoreKit.framework in Frameworks */,
+				84D9BA4A1EC37A9A009042CB /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +110,7 @@
 		84D9BA021EC36F57009042CB = {
 			isa = PBXGroup;
 			children = (
+				84D9BA421EC379B3009042CB /* FBSDK */,
 				84D9BA0D1EC36F58009042CB /* MyRecharge */,
 				84D9BA251EC36F59009042CB /* MyRechargeTests */,
 				84D9BA301EC36F59009042CB /* MyRechargeUITests */,
@@ -99,6 +131,7 @@
 		84D9BA0D1EC36F58009042CB /* MyRecharge */ = {
 			isa = PBXGroup;
 			children = (
+				84D9BA4E1EC37D38009042CB /* DB */,
 				84D9BA401EC36F95009042CB /* Model */,
 				84D9BA3F1EC36F8F009042CB /* UI */,
 				84D9BA411EC36F9E009042CB /* Resources */,
@@ -148,8 +181,27 @@
 				84D9BA1A1EC36F58009042CB /* LaunchScreen.storyboard */,
 				84D9BA1D1EC36F58009042CB /* Info.plist */,
 				84D9BA151EC36F58009042CB /* MyRecharge.xcdatamodeld */,
+				84D9BA4D1EC37B27009042CB /* MyRecharge-Bridging-Header.h */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		84D9BA421EC379B3009042CB /* FBSDK */ = {
+			isa = PBXGroup;
+			children = (
+				84D9BA431EC37A9A009042CB /* Bolts.framework */,
+				84D9BA441EC37A9A009042CB /* FBSDKCoreKit.framework */,
+				84D9BA451EC37A9A009042CB /* FBSDKLoginKit.framework */,
+			);
+			name = FBSDK;
+			sourceTree = "<group>";
+		};
+		84D9BA4E1EC37D38009042CB /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				84D9BA4F1EC37D65009042CB /* MRDatabase.swift */,
+			);
+			name = DB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +214,7 @@
 				84D9BA071EC36F58009042CB /* Sources */,
 				84D9BA081EC36F58009042CB /* Frameworks */,
 				84D9BA091EC36F58009042CB /* Resources */,
+				84D9BA4C1EC37A9A009042CB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,6 +342,7 @@
 				84D9BA171EC36F58009042CB /* MyRecharge.xcdatamodeld in Sources */,
 				84D9BA111EC36F58009042CB /* MRLoginVC.swift in Sources */,
 				84D9BA0F1EC36F58009042CB /* AppDelegate.swift in Sources */,
+				84D9BA501EC37D65009042CB /* MRDatabase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +494,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyRecharge/FBSDK",
+				);
 				INFOPLIST_FILE = MyRecharge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Marvel.MyRecharge;
@@ -452,6 +510,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyRecharge/FBSDK",
+				);
 				INFOPLIST_FILE = MyRecharge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Marvel.MyRecharge;
@@ -533,6 +595,7 @@
 				84D9BA381EC36F59009042CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84D9BA391EC36F59009042CB /* Build configuration list for PBXNativeTarget "MyRechargeTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +604,7 @@
 				84D9BA3B1EC36F59009042CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84D9BA3C1EC36F59009042CB /* Build configuration list for PBXNativeTarget "MyRechargeUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +613,7 @@
 				84D9BA3E1EC36F59009042CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
