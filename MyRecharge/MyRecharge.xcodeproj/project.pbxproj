@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64699F1376863A166CC593E5 /* Pods_MyRechargeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91813E90B8A335120481039E /* Pods_MyRechargeUITests.framework */; };
 		84D9BA0F1EC36F58009042CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9BA0E1EC36F58009042CB /* AppDelegate.swift */; };
 		84D9BA111EC36F58009042CB /* MRLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9BA101EC36F58009042CB /* MRLoginVC.swift */; };
 		84D9BA141EC36F58009042CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D9BA121EC36F58009042CB /* Main.storyboard */; };
@@ -23,6 +24,8 @@
 		84D9BA4B1EC37A9A009042CB /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84D9BA451EC37A9A009042CB /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84D9BA501EC37D65009042CB /* MRDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9BA4F1EC37D65009042CB /* MRDatabase.swift */; };
 		84D9BA531EC393D0009042CB /* MRPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9BA521EC393D0009042CB /* MRPreferences.swift */; };
+		BC1AE9CC5ABB6E90594E9D12 /* Pods_MyRechargeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDB935FF1A7FA5AC0122F87 /* Pods_MyRechargeTests.framework */; };
+		D09F36B3D13F353BE1B7668F /* Pods_MyRecharge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D63B3CC3CF32180ECA6490 /* Pods_MyRecharge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		33909D8DBF4E34BDF8AE74C6 /* Pods-MyRechargeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRechargeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRechargeTests/Pods-MyRechargeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		45E97DB69501D918635CF175 /* Pods-MyRecharge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRecharge.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyRecharge/Pods-MyRecharge.release.xcconfig"; sourceTree = "<group>"; };
+		4A14A395165070F6AED816FF /* Pods-MyRecharge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRecharge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRecharge/Pods-MyRecharge.debug.xcconfig"; sourceTree = "<group>"; };
+		70D63B3CC3CF32180ECA6490 /* Pods_MyRecharge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRecharge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF3F7B118D3E53EB20FB5E2 /* Pods-MyRechargeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRechargeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRechargeUITests/Pods-MyRechargeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		84D9BA0B1EC36F58009042CB /* MyRecharge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRecharge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D9BA0E1EC36F58009042CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D9BA101EC36F58009042CB /* MRLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRLoginVC.swift; sourceTree = "<group>"; };
@@ -79,6 +87,10 @@
 		84D9BA4D1EC37B27009042CB /* MyRecharge-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyRecharge-Bridging-Header.h"; sourceTree = "<group>"; };
 		84D9BA4F1EC37D65009042CB /* MRDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRDatabase.swift; sourceTree = "<group>"; };
 		84D9BA521EC393D0009042CB /* MRPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRPreferences.swift; sourceTree = "<group>"; };
+		8FDB935FF1A7FA5AC0122F87 /* Pods_MyRechargeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRechargeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91813E90B8A335120481039E /* Pods_MyRechargeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRechargeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70ABDCCAAAED8F4CF18121C /* Pods-MyRechargeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRechargeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyRechargeUITests/Pods-MyRechargeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F917F9A59F38D4B45391BCA4 /* Pods-MyRechargeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRechargeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyRechargeTests/Pods-MyRechargeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,7 @@
 				84D9BA461EC37A9A009042CB /* Bolts.framework in Frameworks */,
 				84D9BA481EC37A9A009042CB /* FBSDKCoreKit.framework in Frameworks */,
 				84D9BA4A1EC37A9A009042CB /* FBSDKLoginKit.framework in Frameworks */,
+				D09F36B3D13F353BE1B7668F /* Pods_MyRecharge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC1AE9CC5ABB6E90594E9D12 /* Pods_MyRechargeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,12 +117,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64699F1376863A166CC593E5 /* Pods_MyRechargeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DFDD48B93D8F9608EC51EA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A14A395165070F6AED816FF /* Pods-MyRecharge.debug.xcconfig */,
+				45E97DB69501D918635CF175 /* Pods-MyRecharge.release.xcconfig */,
+				33909D8DBF4E34BDF8AE74C6 /* Pods-MyRechargeTests.debug.xcconfig */,
+				F917F9A59F38D4B45391BCA4 /* Pods-MyRechargeTests.release.xcconfig */,
+				7EF3F7B118D3E53EB20FB5E2 /* Pods-MyRechargeUITests.debug.xcconfig */,
+				C70ABDCCAAAED8F4CF18121C /* Pods-MyRechargeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		84D9BA021EC36F57009042CB = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +145,8 @@
 				84D9BA251EC36F59009042CB /* MyRechargeTests */,
 				84D9BA301EC36F59009042CB /* MyRechargeUITests */,
 				84D9BA0C1EC36F58009042CB /* Products */,
+				3DFDD48B93D8F9608EC51EA3 /* Pods */,
+				BB6BF914E2431C6C249D9DDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -215,6 +245,16 @@
 			name = Preference;
 			sourceTree = "<group>";
 		};
+		BB6BF914E2431C6C249D9DDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70D63B3CC3CF32180ECA6490 /* Pods_MyRecharge.framework */,
+				8FDB935FF1A7FA5AC0122F87 /* Pods_MyRechargeTests.framework */,
+				91813E90B8A335120481039E /* Pods_MyRechargeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -222,10 +262,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84D9BA361EC36F59009042CB /* Build configuration list for PBXNativeTarget "MyRecharge" */;
 			buildPhases = (
+				420D39424C024134A356FA8F /* [CP] Check Pods Manifest.lock */,
 				84D9BA071EC36F58009042CB /* Sources */,
 				84D9BA081EC36F58009042CB /* Frameworks */,
 				84D9BA091EC36F58009042CB /* Resources */,
 				84D9BA4C1EC37A9A009042CB /* Embed Frameworks */,
+				838480100ED2AF96A3AF35B8 /* [CP] Embed Pods Frameworks */,
+				99B119D39E6220181C503C22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84D9BA391EC36F59009042CB /* Build configuration list for PBXNativeTarget "MyRechargeTests" */;
 			buildPhases = (
+				BE0FFA1F8BA6450C18470559 /* [CP] Check Pods Manifest.lock */,
 				84D9BA1E1EC36F59009042CB /* Sources */,
 				84D9BA1F1EC36F59009042CB /* Frameworks */,
 				84D9BA201EC36F59009042CB /* Resources */,
+				01046A8B4C441D13940E8D0C /* [CP] Embed Pods Frameworks */,
+				005B311DB4ECEED654A45C1F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,9 +304,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84D9BA3C1EC36F59009042CB /* Build configuration list for PBXNativeTarget "MyRechargeUITests" */;
 			buildPhases = (
+				8A1C40447714864C6A56EBDF /* [CP] Check Pods Manifest.lock */,
 				84D9BA291EC36F59009042CB /* Sources */,
 				84D9BA2A1EC36F59009042CB /* Frameworks */,
 				84D9BA2B1EC36F59009042CB /* Resources */,
+				BA077531E6163937E0C865DD /* [CP] Embed Pods Frameworks */,
+				4E1684C3301118418835C73E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -344,6 +393,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		005B311DB4ECEED654A45C1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyRechargeTests/Pods-MyRechargeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		01046A8B4C441D13940E8D0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyRechargeTests/Pods-MyRechargeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		420D39424C024134A356FA8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E1684C3301118418835C73E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyRechargeUITests/Pods-MyRechargeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		838480100ED2AF96A3AF35B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyRecharge/Pods-MyRecharge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A1C40447714864C6A56EBDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99B119D39E6220181C503C22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyRecharge/Pods-MyRecharge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA077531E6163937E0C865DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyRechargeUITests/Pods-MyRechargeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE0FFA1F8BA6450C18470559 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84D9BA071EC36F58009042CB /* Sources */ = {
@@ -504,6 +691,7 @@
 		};
 		84D9BA371EC36F59009042CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A14A395165070F6AED816FF /* Pods-MyRecharge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -520,6 +708,7 @@
 		};
 		84D9BA381EC36F59009042CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E97DB69501D918635CF175 /* Pods-MyRecharge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -536,6 +725,7 @@
 		};
 		84D9BA3A1EC36F59009042CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33909D8DBF4E34BDF8AE74C6 /* Pods-MyRechargeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -550,6 +740,7 @@
 		};
 		84D9BA3B1EC36F59009042CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F917F9A59F38D4B45391BCA4 /* Pods-MyRechargeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -564,6 +755,7 @@
 		};
 		84D9BA3D1EC36F59009042CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EF3F7B118D3E53EB20FB5E2 /* Pods-MyRechargeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MyRechargeUITests/Info.plist;
@@ -577,6 +769,7 @@
 		};
 		84D9BA3E1EC36F59009042CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C70ABDCCAAAED8F4CF18121C /* Pods-MyRechargeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MyRechargeUITests/Info.plist;

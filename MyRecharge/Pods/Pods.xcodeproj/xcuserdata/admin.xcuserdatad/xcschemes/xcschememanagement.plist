@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-MyRecharge.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MyRechargeTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MyRechargeUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>223ED92AD17C0122F8A4923671122D6F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>35C41D965BDF29319F91EE4FA433AFB2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8C1E072C8B4B9EB639671134B034BB1E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5F3B1DB65FAD08741FA33990B8596AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

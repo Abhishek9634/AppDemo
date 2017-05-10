@@ -1,0 +1,6 @@
+framework module Pods_MyRechargeTests {
+  umbrella header "Pods-MyRechargeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
