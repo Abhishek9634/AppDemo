@@ -5,6 +5,7 @@ target 'MyRecharge' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
 
   pod 'SDWebImage', '~>3.8'
+  pod 'Google/SignIn'
   # Pods for MyRecharge
 
   target 'MyRechargeTests' do
