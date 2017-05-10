@@ -9,16 +9,20 @@
 import UIKit
 import FBSDKLoginKit
 import FBSDKCoreKit
+import GoogleSignIn
 
-class MRLoginVC: UIViewController {
+class MRLoginVC: UIViewController, GIDSignInUIDelegate {
 
     @IBOutlet weak var appTitle: UILabel!
     @IBOutlet weak var fbLoginButton: UIButton!
     @IBOutlet weak var googleLoginButton: UIButton!
     
+    @IBOutlet weak var googleSigninButton: GIDSignInButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        GIDSignIn.sharedInstance().uiDelegate = self
     }
 
     override func didReceiveMemoryWarning() {

@@ -24,6 +24,9 @@
 		84D9BA4B1EC37A9A009042CB /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84D9BA451EC37A9A009042CB /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84D9BA501EC37D65009042CB /* MRDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9BA4F1EC37D65009042CB /* MRDatabase.swift */; };
 		84D9BA531EC393D0009042CB /* MRPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9BA521EC393D0009042CB /* MRPreferences.swift */; };
+		84D9BA551EC39F48009042CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84D9BA541EC39F48009042CB /* GoogleService-Info.plist */; };
+		84D9BA561EC39F50009042CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84D9BA541EC39F48009042CB /* GoogleService-Info.plist */; };
+		84D9BA571EC39F50009042CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84D9BA541EC39F48009042CB /* GoogleService-Info.plist */; };
 		BC1AE9CC5ABB6E90594E9D12 /* Pods_MyRechargeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDB935FF1A7FA5AC0122F87 /* Pods_MyRechargeTests.framework */; };
 		D09F36B3D13F353BE1B7668F /* Pods_MyRecharge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D63B3CC3CF32180ECA6490 /* Pods_MyRecharge.framework */; };
 /* End PBXBuildFile section */
@@ -87,6 +90,7 @@
 		84D9BA4D1EC37B27009042CB /* MyRecharge-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyRecharge-Bridging-Header.h"; sourceTree = "<group>"; };
 		84D9BA4F1EC37D65009042CB /* MRDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRDatabase.swift; sourceTree = "<group>"; };
 		84D9BA521EC393D0009042CB /* MRPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRPreferences.swift; sourceTree = "<group>"; };
+		84D9BA541EC39F48009042CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8FDB935FF1A7FA5AC0122F87 /* Pods_MyRechargeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRechargeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91813E90B8A335120481039E /* Pods_MyRechargeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRechargeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70ABDCCAAAED8F4CF18121C /* Pods-MyRechargeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRechargeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyRechargeUITests/Pods-MyRechargeUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -208,6 +212,7 @@
 		84D9BA411EC36F9E009042CB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84D9BA541EC39F48009042CB /* GoogleService-Info.plist */,
 				84D9BA0E1EC36F58009042CB /* AppDelegate.swift */,
 				84D9BA121EC36F58009042CB /* Main.storyboard */,
 				84D9BA181EC36F58009042CB /* Assets.xcassets */,
@@ -373,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D9BA1C1EC36F58009042CB /* LaunchScreen.storyboard in Resources */,
+				84D9BA551EC39F48009042CB /* GoogleService-Info.plist in Resources */,
 				84D9BA191EC36F58009042CB /* Assets.xcassets in Resources */,
 				84D9BA141EC36F58009042CB /* Main.storyboard in Resources */,
 			);
@@ -382,6 +388,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D9BA561EC39F50009042CB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +396,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D9BA571EC39F50009042CB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
