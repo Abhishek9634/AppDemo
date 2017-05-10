@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FBSDKLoginKit
+import FBSDKCoreKit
 
 class MRLoginVC: UIViewController {
 
@@ -24,10 +26,44 @@ class MRLoginVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        if (FBSDKAccessToken.current() != nil) {
+        
+            // GETTING TOKEN : LOGIN SUCCESS ONLY
+        }
+    }
+    
+    //========================================================================================================
+    // Actions
+    //========================================================================================================
+    
     @IBAction func facebookLogin(_ sender: Any) {
+        self.loginFacbook { (error) in
+            
+        }
     }
 
     @IBAction func googleLogin(_ sender: Any) {
+        
+        
     }
-}
+    
+    func loginFacbook(completion : @escaping (_ error: NSError?) -> Void) {
+    
+        let loginManager = FBSDKLoginManager()
+        loginManager.logIn(withReadPermissions: ["public_profile", "email", "user_friends"], from: self) { (loginResult, error) in
+            
+            if ((loginResult?.isCancelled)! || loginResult?.token == nil) {
+            
+            } else {
+            
+                print("FBSDK TOKEN \(loginResult?.token.tokenString)")
+            }
+            completion(error as NSError?)
+        }
+        
+    }
 
+}
