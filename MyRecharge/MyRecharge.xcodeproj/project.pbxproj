@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		64699F1376863A166CC593E5 /* Pods_MyRechargeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91813E90B8A335120481039E /* Pods_MyRechargeUITests.framework */; };
+		849815541EC627ED009CEF7F /* MRChooseNetworkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849815531EC627ED009CEF7F /* MRChooseNetworkVC.swift */; };
+		849815561EC62825009CEF7F /* MRNetworkCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849815551EC62825009CEF7F /* MRNetworkCVCell.swift */; };
+		849815581EC62DD1009CEF7F /* MROperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849815571EC62DD1009CEF7F /* MROperator.swift */; };
 		84D9BA0F1EC36F58009042CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9BA0E1EC36F58009042CB /* AppDelegate.swift */; };
 		84D9BA111EC36F58009042CB /* MRLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9BA101EC36F58009042CB /* MRLoginVC.swift */; };
 		84D9BA141EC36F58009042CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D9BA121EC36F58009042CB /* Main.storyboard */; };
@@ -70,6 +73,9 @@
 		4A14A395165070F6AED816FF /* Pods-MyRecharge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRecharge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRecharge/Pods-MyRecharge.debug.xcconfig"; sourceTree = "<group>"; };
 		70D63B3CC3CF32180ECA6490 /* Pods_MyRecharge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRecharge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF3F7B118D3E53EB20FB5E2 /* Pods-MyRechargeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRechargeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRechargeUITests/Pods-MyRechargeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		849815531EC627ED009CEF7F /* MRChooseNetworkVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRChooseNetworkVC.swift; sourceTree = "<group>"; };
+		849815551EC62825009CEF7F /* MRNetworkCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRNetworkCVCell.swift; sourceTree = "<group>"; };
+		849815571EC62DD1009CEF7F /* MROperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MROperator.swift; sourceTree = "<group>"; };
 		84D9BA0B1EC36F58009042CB /* MyRecharge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRecharge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D9BA0E1EC36F58009042CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D9BA101EC36F58009042CB /* MRLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRLoginVC.swift; sourceTree = "<group>"; };
@@ -198,6 +204,8 @@
 			isa = PBXGroup;
 			children = (
 				84D9BA101EC36F58009042CB /* MRLoginVC.swift */,
+				849815531EC627ED009CEF7F /* MRChooseNetworkVC.swift */,
+				849815551EC62825009CEF7F /* MRNetworkCVCell.swift */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -205,6 +213,7 @@
 		84D9BA401EC36F95009042CB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				849815571EC62DD1009CEF7F /* MROperator.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -546,9 +555,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D9BA171EC36F58009042CB /* MyRecharge.xcdatamodeld in Sources */,
+				849815541EC627ED009CEF7F /* MRChooseNetworkVC.swift in Sources */,
 				84D9BA531EC393D0009042CB /* MRPreferences.swift in Sources */,
 				84D9BA111EC36F58009042CB /* MRLoginVC.swift in Sources */,
+				849815561EC62825009CEF7F /* MRNetworkCVCell.swift in Sources */,
 				84D9BA0F1EC36F58009042CB /* AppDelegate.swift in Sources */,
+				849815581EC62DD1009CEF7F /* MROperator.swift in Sources */,
 				84D9BA501EC37D65009042CB /* MRDatabase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

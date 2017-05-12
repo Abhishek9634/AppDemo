@@ -77,7 +77,9 @@ class MRLoginVC: UIViewController, GIDSignInUIDelegate {
 
     @IBAction func googleLogin(_ sender: Any) {
         
-        
+        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+        let tabBarVC = storyboard.instantiateViewController(withIdentifier: "MRTabBarVC")
+        self.present(tabBarVC, animated: true, completion: nil)
     }
     
     func loginFacbook(completion : @escaping (_ error: NSError?) -> Void) {
