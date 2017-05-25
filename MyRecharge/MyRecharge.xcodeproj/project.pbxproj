@@ -294,6 +294,7 @@
 				84D9BA4C1EC37A9A009042CB /* Embed Frameworks */,
 				838480100ED2AF96A3AF35B8 /* [CP] Embed Pods Frameworks */,
 				99B119D39E6220181C503C22 /* [CP] Copy Pods Resources */,
+				84CD66E01ED6FCD300B96CD5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -497,6 +498,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyRecharge/Pods-MyRecharge-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		84CD66E01ED6FCD300B96CD5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 093ce8bf96c40c83cbeba1628ff4b0cb6f9ce35a 30099984671677293aaf122dddb83479e3f6d85190b96a1ce73159b7abcb04b1";
 		};
 		8A1C40447714864C6A56EBDF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
