@@ -2,25 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>Fabric</key>
-    <dict>
-        <key>APIKey</key>
-        <string>093ce8bf96c40c83cbeba1628ff4b0cb6f9ce35a</string>
-        <key>Kits</key>
-        <array>
-            <dict>
-                <key>KitInfo</key>
-                <dict>
-                    <key>consumerKey</key>
-                    <string>Consumer Key</string>
-                    <key>consumerSecret</key>
-                    <string>Consumer Secret</string>
-                </dict>
-                <key>KitName</key>
-                <string>Twitter</string>
-            </dict>
-        </array>
-    </dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -59,9 +40,36 @@
 				<string>Marvel.MyRecharge</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>twitterkit-JpBIcD3KKptl6q61j50TT6FBF</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>093ce8bf96c40c83cbeba1628ff4b0cb6f9ce35a</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict>
+					<key>consumerKey</key>
+					<string>JpBIcD3KKptl6q61j50TT6FBF</string>
+					<key>consumerSecret</key>
+					<string>6AtrzclN5aWIHVuno4dxcNhPLMcF3TNYTFSge0KjMod5Q94r45</string>
+				</dict>
+				<key>KitName</key>
+				<string>Twitter</string>
+			</dict>
+		</array>
+	</dict>
 	<key>FacebookAppID</key>
 	<string>1887513081500429</string>
 	<key>FacebookDisplayName</key>

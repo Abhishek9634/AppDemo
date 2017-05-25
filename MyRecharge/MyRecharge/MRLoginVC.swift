@@ -10,6 +10,7 @@ import UIKit
 import FBSDKLoginKit
 import FBSDKCoreKit
 import GoogleSignIn
+import TwitterKit
 
 class MRLoginVC: UIViewController, GIDSignInUIDelegate {
 
@@ -17,12 +18,15 @@ class MRLoginVC: UIViewController, GIDSignInUIDelegate {
     @IBOutlet weak var fbLoginButton: UIButton!
     @IBOutlet weak var googleLoginButton: UIButton!
     
+    var loginCompletion: TWTRLogInCompletion?
+    
     @IBOutlet weak var googleSigninButton: GIDSignInButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         GIDSignIn.sharedInstance().uiDelegate = self
+//        addTwitterButton()
     }
 
     override func didReceiveMemoryWarning() {
@@ -99,6 +103,31 @@ class MRLoginVC: UIViewController, GIDSignInUIDelegate {
     
     
     @IBAction func loginWithTwitter(_ sender: Any) {
+        
+        Twitter.sharedInstance().logIn { session, error in
+            if (session != nil) {
+                print("Twitter signed in as \(session?.userName)");
+            } else {
+                print("Twitter error: \(error?.localizedDescription)");
+            }
+        }
+        
     }
 
+    func addTwitterButton() {
+    
+        loginCompletion = { session, error in
+            if (session != nil) {
+                print("signed in as \(session?.userName)");
+            } else {
+                print("error: \(error?.localizedDescription)");
+            }
+        }
+        
+        let logInButton = TWTRLogInButton(logInCompletion: loginCompletion!)
+        logInButton.center = self.view.center
+        self.view.addSubview(logInButton)
+
+    }
+    
 }
