@@ -47,6 +47,14 @@
                                 <rect key="frame" x="16" y="625" width="343" height="34"/>
                                 <color key="backgroundColor" red="0.90300057789999999" green="0.9134618283" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xed-lL-2iW">
+                                <rect key="frame" x="16" y="476" width="343" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Login with Twitter"/>
+                                <connections>
+                                    <action selector="loginWithTwitter:" destination="BYZ-38-t0r" eventType="touchDown" id="F4y-gs-IEW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -54,15 +62,19 @@
                             <constraint firstItem="cWZ-jW-2EX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="6Nk-SG-UoI"/>
                             <constraint firstItem="W8y-Yl-ak6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="8Re-eu-Djp"/>
                             <constraint firstAttribute="trailing" secondItem="uaH-38-Qth" secondAttribute="trailing" constant="16" id="F87-4Y-6Kk"/>
+                            <constraint firstItem="xed-lL-2iW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="J0K-13-dbz"/>
                             <constraint firstItem="uaH-38-Qth" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="127" id="JeT-ba-sNN"/>
+                            <constraint firstItem="xed-lL-2iW" firstAttribute="top" secondItem="cWZ-jW-2EX" secondAttribute="bottom" constant="42" id="TqG-u1-8eg"/>
                             <constraint firstItem="W8y-Yl-ak6" firstAttribute="top" secondItem="uaH-38-Qth" secondAttribute="bottom" constant="129" id="VYp-04-4BI"/>
                             <constraint firstAttribute="trailing" secondItem="EbK-ki-3dD" secondAttribute="trailing" constant="16" id="Vj8-Ue-gPI"/>
+                            <constraint firstItem="EbK-ki-3dD" firstAttribute="top" secondItem="xed-lL-2iW" secondAttribute="bottom" constant="115" id="aiF-rs-FtX"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uaH-38-Qth" secondAttribute="bottom" constant="478" id="fge-i1-YWO"/>
                             <constraint firstItem="EbK-ki-3dD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="jpP-5U-xIc"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EbK-ki-3dD" secondAttribute="bottom" constant="8" id="lgs-81-uVQ"/>
                             <constraint firstItem="EbK-ki-3dD" firstAttribute="top" secondItem="cWZ-jW-2EX" secondAttribute="bottom" constant="191" id="nPq-dZ-kdW"/>
                             <constraint firstAttribute="trailing" secondItem="cWZ-jW-2EX" secondAttribute="trailing" constant="16" id="taW-bR-nGC"/>
                             <constraint firstItem="uaH-38-Qth" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="tka-SA-UtD"/>
+                            <constraint firstAttribute="trailing" secondItem="xed-lL-2iW" secondAttribute="trailing" constant="16" id="z8r-xa-Ivr"/>
                             <constraint firstItem="cWZ-jW-2EX" firstAttribute="top" secondItem="W8y-Yl-ak6" secondAttribute="bottom" constant="48" id="zP7-8O-DGc"/>
                         </constraints>
                     </view>

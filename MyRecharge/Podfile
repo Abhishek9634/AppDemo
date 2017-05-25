@@ -6,6 +6,8 @@ target 'MyRecharge' do
 
   pod 'SDWebImage', '~>3.8'
   pod 'Google/SignIn'
+  pod 'Fabric'
+  pod 'TwitterKit'
   # Pods for MyRecharge
 
   target 'MyRechargeTests' do

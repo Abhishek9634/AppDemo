@@ -96,5 +96,9 @@ class MRLoginVC: UIViewController, GIDSignInUIDelegate {
             completion(error as NSError?)
         }
     }
+    
+    
+    @IBAction func loginWithTwitter(_ sender: Any) {
+    }
 
 }
