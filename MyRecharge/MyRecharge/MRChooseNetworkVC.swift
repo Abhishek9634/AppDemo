@@ -8,8 +8,7 @@
 
 import UIKit
 
-class MRChooseNetworkVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
-
+class MRChooseNetworkVC: UIViewController {
     
     @IBOutlet weak var operatorCollectionView: UICollectionView!
     
@@ -17,9 +16,19 @@ class MRChooseNetworkVC: UIViewController, UICollectionViewDelegate, UICollectio
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupUI()
+    }
 
-        // Do any additional setup after loading the view.
-        
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+}
+
+extension MRChooseNetworkVC: UICollectionViewDelegate, UICollectionViewDataSource {
+
+    func setupUI() {
         operatorCollectionView.delegate = self
         operatorCollectionView.dataSource = self
         
@@ -62,41 +71,24 @@ class MRChooseNetworkVC: UIViewController, UICollectionViewDelegate, UICollectio
         operatorCollectionView.reloadData()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
+        let viewController = UIStoryboard.getVC(ID: "MRTariffPlansVC")
+        self.navigationController?.pushViewController(viewController, animated: true)
     }
-
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return (arrayList?.count)!
     }
-
+    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MRNetworkCVCell", for: indexPath) as! MRNetworkCVCell
         
         let obj = (arrayList?[indexPath.row])! as MROperator
-        
         cell.nameLabel.text = obj.name! as String
         cell.imgView.image = UIImage(named: obj.imageUrl!)
         
         return cell
-        
     }
     
 }

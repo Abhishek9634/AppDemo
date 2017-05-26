@@ -80,9 +80,8 @@ class MRLoginVC: UIViewController, GIDSignInUIDelegate {
     }
 
     @IBAction func googleLogin(_ sender: Any) {
-        
-        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
-        let tabBarVC = storyboard.instantiateViewController(withIdentifier: "MRTabBarVC")
+
+        let tabBarVC = UIStoryboard.getVC(ID: "MRTabBarVC")
         self.present(tabBarVC, animated: true, completion: nil)
     }
     
@@ -127,7 +126,17 @@ class MRLoginVC: UIViewController, GIDSignInUIDelegate {
         let logInButton = TWTRLogInButton(logInCompletion: loginCompletion!)
         logInButton.center = self.view.center
         self.view.addSubview(logInButton)
-
     }
     
+}
+
+extension UIStoryboard {
+
+    class func shared() -> UIStoryboard {
+        return UIStoryboard.init(name: "Main", bundle: nil)
+    }
+    
+    class func getVC(ID: String) -> UIViewController {
+        return self.shared().instantiateViewController(withIdentifier: ID)
+    }
 }
