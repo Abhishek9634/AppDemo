@@ -39,25 +39,35 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Stripe-Stripe.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Stripe.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0BDBD898556749E115C18E9A55DE2AA7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>107A9565F9DF88517DFD3E28C05B2B96</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2AF9A44B757CDD288F709B27920A62FB</key>
+		<key>19ADD4838AFBFDC656F74AE452A536E4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>681BE6E3D02A43F9BA63777AC435C8FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>860408022DD38C22BA237EF6063991FD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -73,6 +83,16 @@
 			<true/>
 		</dict>
 		<key>B5F3B1DB65FAD08741FA33990B8596AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BB2C20540ABC59E095E89EA900C70B1C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F2724768D636C3A25B34C24DA83D264E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -38,6 +38,7 @@ PODS:
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
+  - Stripe (10.0.1)
   - TwitterCore (2.8.0):
     - Fabric
   - TwitterKit (2.8.1):
@@ -47,6 +48,7 @@ DEPENDENCIES:
   - Fabric
   - Google/SignIn
   - SDWebImage (~> 3.8)
+  - Stripe
   - TwitterKit
 
 SPEC CHECKSUMS:
@@ -60,9 +62,10 @@ SPEC CHECKSUMS:
   GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
   GTMSessionFetcher: 5c046c76a1f859bc9c187e918f18e4fc7bb57b5e
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  Stripe: dd6df0e2c6a8463e2f1ca9b15dc246e5ae1eee64
   TwitterCore: e959987be23c767004d29eb7fab8d85d8585a2e5
   TwitterKit: 3b6044a7320340326a4098f3e37aa1dbaeb94942
 
-PODFILE CHECKSUM: 6849a60c0b087beea9fe4c90f526cead464a4c8a
+PODFILE CHECKSUM: 16ad0a6bf812df153762ad19f212930a1c44f92a
 
 COCOAPODS: 1.2.1

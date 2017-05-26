@@ -8,6 +8,7 @@ target 'MyRecharge' do
   pod 'Google/SignIn'
   pod 'Fabric'
   pod 'TwitterKit'
+  pod 'Stripe'
   # Pods for MyRecharge
 
   target 'MyRechargeTests' do

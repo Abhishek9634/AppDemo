@@ -16,6 +16,12 @@ enum TWITTER: String {
     case OWNER_ID = "2932289454"
 }
 
+enum STRIPE: String {
+
+    case PUBLISHABLE = "pk_test_jAvEWnSkDRNubbQ8tZTi0rVU"
+    case SECRET = "sk_test_khBu6IXT8AQ2NjFjl3N2tly8"
+}
+
 class SocialLoginService: NSObject {
 
     
