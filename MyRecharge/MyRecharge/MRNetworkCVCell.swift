@@ -14,3 +14,12 @@ class MRNetworkCVCell: UICollectionViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     
 }
+
+class MRPlansCVCell: UICollectionViewCell {
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var price: UILabel!
+    @IBOutlet weak var talkTime: UILabel!
+    @IBOutlet weak var validity: UILabel!
+    
+}

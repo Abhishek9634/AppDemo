@@ -24,3 +24,23 @@ class MROperator: NSObject {
     }
     
 }
+
+class MRPlans: NSObject {
+
+    var name: String?
+    var price: String?
+    var validity: String?
+    var talkTime: String?
+    
+    override init() {
+        super.init()
+    }
+    
+    init (dictionary: [String: Any]) {
+        super.init()
+        name = dictionary["name"] as? String
+        price = dictionary["price"] as? String
+        validity = dictionary["validity"] as? String
+        talkTime = dictionary["talkTime"] as? String
+    }
+}

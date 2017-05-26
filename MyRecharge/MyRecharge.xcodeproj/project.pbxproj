@@ -13,6 +13,7 @@
 		849815541EC627ED009CEF7F /* MRChooseNetworkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849815531EC627ED009CEF7F /* MRChooseNetworkVC.swift */; };
 		849815561EC62825009CEF7F /* MRNetworkCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849815551EC62825009CEF7F /* MRNetworkCVCell.swift */; };
 		849815581EC62DD1009CEF7F /* MROperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849815571EC62DD1009CEF7F /* MROperator.swift */; };
+		84B552611ED8B2AE003266E9 /* MRPaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B552601ED8B2AE003266E9 /* MRPaymentVC.swift */; };
 		84D9BA0F1EC36F58009042CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9BA0E1EC36F58009042CB /* AppDelegate.swift */; };
 		84D9BA111EC36F58009042CB /* MRLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9BA101EC36F58009042CB /* MRLoginVC.swift */; };
 		84D9BA141EC36F58009042CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D9BA121EC36F58009042CB /* Main.storyboard */; };
@@ -80,6 +81,7 @@
 		849815531EC627ED009CEF7F /* MRChooseNetworkVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRChooseNetworkVC.swift; sourceTree = "<group>"; };
 		849815551EC62825009CEF7F /* MRNetworkCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRNetworkCVCell.swift; sourceTree = "<group>"; };
 		849815571EC62DD1009CEF7F /* MROperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MROperator.swift; sourceTree = "<group>"; };
+		84B552601ED8B2AE003266E9 /* MRPaymentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRPaymentVC.swift; sourceTree = "<group>"; };
 		84D9BA0B1EC36F58009042CB /* MyRecharge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRecharge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D9BA0E1EC36F58009042CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D9BA101EC36F58009042CB /* MRLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRLoginVC.swift; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 				849815531EC627ED009CEF7F /* MRChooseNetworkVC.swift */,
 				849815551EC62825009CEF7F /* MRNetworkCVCell.swift */,
 				842590DC1ED89D7C00198D0F /* MRTariffPlansVC.swift */,
+				84B552601ED8B2AE003266E9 /* MRPaymentVC.swift */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -587,6 +590,7 @@
 				849815541EC627ED009CEF7F /* MRChooseNetworkVC.swift in Sources */,
 				84D9BA531EC393D0009042CB /* MRPreferences.swift in Sources */,
 				84D9BA111EC36F58009042CB /* MRLoginVC.swift in Sources */,
+				84B552611ED8B2AE003266E9 /* MRPaymentVC.swift in Sources */,
 				849815561EC62825009CEF7F /* MRNetworkCVCell.swift in Sources */,
 				84D9BA0F1EC36F58009042CB /* AppDelegate.swift in Sources */,
 				849815581EC62DD1009CEF7F /* MROperator.swift in Sources */,
