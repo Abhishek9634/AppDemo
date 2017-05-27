@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Stripe
 
 class MRPaymentVC: UIViewController {
 
@@ -38,13 +37,6 @@ class MRPaymentVC: UIViewController {
     
     func makePayMent() {
         
-//        let stpCard = STPCard()
-//        stpCard.name = nameLabel.text
-//        stpCard.number = cardNoLabel.text
-//        stpCard.expMonth = UInt((expLabel.text?.components(separatedBy: "/")[0])!)!
-//        stpCard.expYear = UInt((expLabel.text?.components(separatedBy: "/")[1])!)!
-//        stpCard.cvc = cvvLabel.text
-
     }
 
 }
