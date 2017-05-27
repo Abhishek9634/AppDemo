@@ -39,7 +39,7 @@ class MRPaymentVC: UIViewController {
         
         let viewArray = Bundle.main.loadNibNamed("PopUpView", owner: self, options: nil)! as [Any]
         let alertView = viewArray[0] as! MRAlertView
-        alertView.titleLabel.text = "asdhjgdjhsahjadsagd"
+        alertView.titleLabel.text = "Payment Successfully!!!"
         self.view.addSubview(alertView)
     }
 
