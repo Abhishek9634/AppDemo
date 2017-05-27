@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MRAlertView" customModule="MyRecharge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ml6-sP-WTv">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="EXC-8P-hgq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <blurEffect style="light"/>
+                </visualEffectView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cJf-Pb-BkT">
+                    <rect key="frame" x="20" y="231" width="335" height="263"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hyO-qg-EhA">
+                            <rect key="frame" x="0.0" y="225" width="335" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="Button">
+                                <color key="titleColor" red="1" green="0.98379111050000001" blue="0.39414830169999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="buttonAction:" destination="iN0-l3-epB" eventType="touchDown" id="xhI-0M-CnO"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Coa-2S-e9K">
+                            <rect key="frame" x="8" y="8" width="319" height="209"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="263" id="lns-9W-X1v"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="cJf-Pb-BkT" secondAttribute="trailing" constant="20" id="3kw-Yh-XVw"/>
+                <constraint firstAttribute="trailing" secondItem="Ml6-sP-WTv" secondAttribute="trailing" id="73l-Ai-788"/>
+                <constraint firstItem="cJf-Pb-BkT" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="IFx-Vs-UCe"/>
+                <constraint firstItem="cJf-Pb-BkT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="231" id="XwT-AK-xis"/>
+                <constraint firstItem="Ml6-sP-WTv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="bV7-I2-y6a"/>
+                <constraint firstItem="Ml6-sP-WTv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="imm-0X-Hz8"/>
+                <constraint firstAttribute="bottom" secondItem="Ml6-sP-WTv" secondAttribute="bottom" id="nVK-YC-ZMJ"/>
+                <constraint firstItem="cJf-Pb-BkT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="zYb-oI-Lat"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <connections>
+                <outlet property="defultButton" destination="hyO-qg-EhA" id="sYO-Ca-oc3"/>
+                <outlet property="titleLabel" destination="Coa-2S-e9K" id="aeT-TX-lsz"/>
+            </connections>
+            <point key="canvasLocation" x="25.5" y="52.5"/>
+        </view>
+    </objects>
+</document>
