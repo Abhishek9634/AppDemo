@@ -19,19 +19,32 @@ class ProfileTableCell: UITableViewCell {
     }
 }
 
-enum TableSelection: Int {
+enum TableSelection: String {
 
-    case Orders = 1
-    case Settings = 2
+    case Orders
+    case Settings
+    case Help
+    case About
     
-    func targetAction () {
-        // TODO
+    var storyBoardId: String {
+        
+        switch (self) {
+        case .Orders:
+            return "MROrdersVC"
+        case .Settings:
+            return "MRAboutUsVC"
+        case .Help:
+            return "MRAboutUsVC"
+        case .About:
+            return "MRAboutUsVC"
+        }
     }
 }
 
 struct CellModel {
     var name: String
     var image: String
+    var selection: TableSelection
 }
 
 class MRProfileVC: UIViewController {
@@ -63,17 +76,21 @@ class MRProfileVC: UIViewController {
 extension MRProfileVC: UITableViewDelegate, UITableViewDataSource {
     
     func setupTable() {
+        
         self.ptableView.delegate = self
         self.ptableView.dataSource = self
         
-        profileList = [CellModel(name: "My Orders", image: ""),
-                       CellModel(name: "Settings", image: ""),
-                       CellModel(name: "Help & FeedBack", image: ""),
-                       CellModel(name: "About Us", image: "")]
+        profileList = [CellModel(name: "My Orders", image: "", selection: .Orders),
+                       CellModel(name: "Settings", image: "", selection: .Settings),
+                       CellModel(name: "Help & FeedBack", image: "", selection: .Help),
+                       CellModel(name: "About Us", image: "", selection: .About)]
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        let model = profileList[indexPath.row]
+        let vc = UIStoryboard.getVC(ID: model.selection.storyBoardId)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
